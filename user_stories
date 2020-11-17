@@ -1,2 +1,41 @@
-// https://docs.google.com/document/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub
+Instrukcja: https://docs.google.com/document/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub
+Handout: https://docs.google.com/document/d/1Ls6pTmhY_LV8LwFiboUXoFXenXZl0qVZWPZ8J4uoqpI/edit
 
+---
+
+Requirements:
+
+Accept 3 inputs from the user:
+How many items
+Price per item
+2-letter state code
+
+Output the total price. Give a discount based on the total price, add state tax based on the state and the discounted price.
+
+---
+
+As a user I can run the program
+As a user I can see any output
+As a user I can see product price
+As a user I can provide number of items to buy
+As a user I can see total price for a specific product
+As a user I can provide my state
+As a user my price to pay accounts for CA tax rate
+As a user my price to pay accounts for UT tax rate
+As a user my price to pay accounts for NV tax rate
+As a user my price to pay accounts for TX tax rate
+As a user my price to pay accounts for AL tax rate
+As a user I can provide product price
+As a user my price to pay accounts for 3% discount
+As a user my price to pay accounts for 5% discount
+As a user my price to pay accounts for 7% discount
+As a user my price to pay accounts for 10% discount
+As a user my price to pay accounts for 15% discount
+As a user I get errored when my state is not supported
+As a user I get errored when input price is not supported
+As a user I get errored when input item count is not supported
+As a user I get prompted about price with nice UI 
+As a user I can see my discount and tax
+As user I can see discount rates table next to output
+As user I can see state tax rates table next to output
+---
